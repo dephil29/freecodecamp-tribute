@@ -1,0 +1,91 @@
+body {
+    background: #200122;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #200122, #6f0000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #200122, #6f0000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.main {
+    width: auto;
+    height: auto;
+    background: white;
+    margin: 25px auto;
+    border: solid 2px #ff3819;
+    border-bottom: solid 0px;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wurdz {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    font-family: "times new roman";
+    font: 24pt;
+    color: #2f2d2d;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+
+hr {
+    height: 2px;
+    background-color: #ff3819;
+}
+
+h2 {
+    font-family: "calibri";
+    font-size: 12pt;
+    text-align: left;
+    text-indent: 48px;
+    color: #2f2d2d;
+}
+
+.button-bottom {
+    position: relative;
+}
+
+.button-right-corner {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    color: white;
+}
+
+.word-box {
+    width: 995px;
+    height: auto;
+    background: rgb(107, 175, 187);
+    display: flex;
+    flex-flow: row wrap;
+}
+
+p {
+    font-family: "calibri";
+    font-size: 12pt;
+    text-align: left;
+    text-indent: 48px;
+    color: white;
+}
+
+.fake-list {
+    font-family: "calibri";
+    font-size: 12pt;
+    text-align: left;
+    text-indent: 48px;
+    color: white;
+    padding-left: 300px;
+}
