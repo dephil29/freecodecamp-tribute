@@ -11,8 +11,8 @@ body {
 }
 
 .main {
-    width: auto;
-    height: auto;
+    width: 100%;
+    max-width: 992px;
     background: white;
     margin: 25px auto;
     border: solid 2px #ff3819;
@@ -21,13 +21,6 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.wurdz {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    display: flex;
 }
 
 h1 {
@@ -41,32 +34,50 @@ h1 {
     display: flex;
 }
 
+.wurdz {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+
 hr {
     height: 2px;
     background-color: #ff3819;
 }
 
+.align {
+    text-align: center;
+}
+
 h2 {
     font-family: "calibri";
     font-size: 12pt;
-    text-align: left;
-    text-indent: 48px;
+    text-align: center;
     color: #2f2d2d;
 }
 
-.button-bottom {
-    position: relative;
+.layer {
+    display: block;
+    margin: auto;
+}
+
+a:link {
+    color: blue
+}
+
+a:visited {
+    color: purple
 }
 
 .button-right-corner {
-    position: relative;
+    text-align: center;
     right: 0;
     bottom: 0;
-    color: white;
+    color: blue;
 }
 
 .word-box {
-    width: 995px;
     height: auto;
     background: rgb(107, 175, 187);
     display: flex;
@@ -85,7 +96,9 @@ p {
     font-family: "calibri";
     font-size: 12pt;
     text-align: left;
-    text-indent: 48px;
+    text-indent: 5px;
     color: white;
-    padding-left: 300px;
+
+    max-width: 700px;
+    margin: auto;
 }
